@@ -1,0 +1,82 @@
+.vehicleMainWrapper{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 70%;
+    margin: auto;
+    
+}
+
+.vehicleMainWrapper h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: rgb(168, 168, 168);
+}
+
+.vehiclesList{
+    display: flex;
+    flex-direction: column;
+}
+
+.btnsWrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.vehicleTable th{
+    font-size: 1rem;
+    color:rgb(168, 168, 168);
+}
+
+.btnAdd {
+    position: relative;
+    width: 10.35rem;
+    height: 2.8rem;
+    font-size: 1rem;
+    line-height: 2.7rem;
+    text-align: center;
+    text-transform: uppercase;
+    color:rgb(168, 168, 168);
+    cursor: pointer;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    /* background-color: rgba(255, 255, 255, 0.39); */
+  }
+  
+  .btnAdd svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .btnAdd svg rect {
+    fill: none;
+    stroke: rgb(168, 168, 168);
+    stroke-width: 5;
+    stroke-dasharray: 422, 0;
+    -webkit-transition: all 1300ms cubic-bezier(0.19, 1, 0.22, 1);
+    -moz-transition: all 1300ms cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 1300ms cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  
+  .btnAdd:hover svg rect {
+    stroke-width: 5;
+    stroke-dasharray: 10, 310;
+    stroke-dashoffset: 33;
+  }
+  
+  .btnAdd:hover {
+    color: rgb((43, 255, 0)209, 13, 13);
+    font-size: 0.91rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+  }
+
+  .vehiclesList{
+    margin-top: 2rem;
+    width: 100%;
+}

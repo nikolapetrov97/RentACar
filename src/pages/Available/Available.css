@@ -1,0 +1,26 @@
+.availableMainWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    /* background-color: red; */
+}
+
+.availableMainWrapper h1{
+    font-size: 1.5rem;
+    color: rgb(168, 168, 168);
+    margin-bottom: 2rem;
+}
+
+.availableTable th{
+    font-size: 1rem;
+    color:rgb(168, 168, 168);
+}
+
+.availableList{
+    width: 70%;
+}
+
+/* .btnRent{
+
+} */
